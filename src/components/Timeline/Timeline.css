@@ -1,0 +1,121 @@
+.timelineSec{
+    margin-top: 40px;
+}
+
+.displayFlex{
+    display: flex;
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.width25{
+    width: 25%;
+}
+
+.yearBtn{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif !important;
+    color: var(--white);    
+    padding: 8px 50px 8px 10px;
+    border-radius: 4px;    
+    display: block;
+    max-width: fit-content;
+    background-color: var(--timeline-btn) ;
+}
+
+.yearBtn1{
+    color: var(--black-text);
+    background-image: linear-gradient(to right, var(--indicator-gradient1) 0%, var(--indicator-gradient2)  100%);
+    background-color:transparent
+}
+
+.yearSec{
+    padding-bottom: 60px;
+}
+
+.hrLine{
+    background-color: var(--timeline-border);
+    height: 6px;
+    position: relative;
+}
+
+.circleIcon{
+    width: 19px;
+    height: 19px;
+    object-fit: contain;
+}
+
+.circleIconSec{
+    position: relative;
+    top: -10px;
+}
+
+.timelineMonth{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--indicator-gradient1);
+    font-family: "Roboto", sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.timelineDesc{
+    font-size: 15px;
+    color: var(--white);
+    font-family: "Roboto", sans-serif !important;
+}
+
+.timelineTitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.timelineContentSec{
+    padding-top: 60px;
+}
+
+.mobileView{
+    display: none;
+}
+
+@media screen and (max-width:767.98px) {
+    .desktopView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+        border-left: 6px solid var(--timeline-border);
+        padding-left: 30px;
+    }
+    .timelineMonth{
+        margin-top: 7px;
+    }
+    .mobTimelineCircle::before{
+        content: '';
+        position: relative;
+        background: url('../../assets/images/circle1.png');        
+        display: block;       
+        height: 20px;      
+        background-repeat: no-repeat !important;
+        background-size: 19px !important;
+        left: -42px;
+        top: 18px;
+    }
+    .mobTimelineCircle2::before{
+        content: '';
+        position: relative;
+        background: url('../../assets/images/circle2.png') !important; 
+        display: block;       
+        height: 20px;      
+        background-repeat: no-repeat !important;
+        background-size: 19px !important;
+        left: -42px;
+        top: 18px;
+    }
+
+    
+}

@@ -1,0 +1,28 @@
+:root{
+    --white:#ffffff;
+    --black:#010101;    
+    --header-btn1:#E2E2E2;
+    --header-btn2:#FF8C1A;
+    --banner-text:#D0D0DC;
+    --banner-link-grey:#62626F;
+    --footer-bg:#101010;
+    --footer-border:#636363;
+    --footer-text:#787878;
+    --footer-title:#DFDFDF;
+    --footer-list-text:#CDCDCD;
+    --copyright-font:#C4C5CB;
+    --features-bg:#1F1F1F;
+    --features-card:#2A2A2F;
+    --features-text:#9CA8BB;
+    --features-orange:#FF8000;
+    --event-bg:#E4E4E4;
+    --indicator-gradient1:#FF8C17;
+    --indicator-gradient2:#FFA142;
+    --indicator-inactive:#666666;
+    --achieve-grey:#606060;
+    --achieve-border:#2A2A2F;    
+    --achieve-gradient2:#111113;
+    --black-text:#101010;
+    --timeline-btn:#FF800033;
+    --timeline-border:#404040;
+}

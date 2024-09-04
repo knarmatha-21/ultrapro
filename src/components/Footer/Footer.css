@@ -1,0 +1,83 @@
+.footerBg{
+    background-color: var(--footer-bg);
+}
+
+.footerContentSec{
+    padding: 60px;
+}
+
+.copyrightSec{
+    border-top: 1px solid var(--footer-border);
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+.footerLogo{
+    width: 300px;
+    max-width: 100%;
+    height: 71px;
+    object-fit: contain;
+}
+
+.logoText{
+    font-size: 14px;
+    color: var(--footer-text);
+    line-height: 21px;
+    margin: 0;
+    font-family: "Poppins", sans-serif !important; 
+}
+
+.footerTitle{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--footer-title);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.footerList{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-list-text);
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.footerListItems{
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.copyrightText{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif !important;
+    color: var(--copyright-font);
+    padding: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width:767.98px) {
+    .footerGrid{
+        grid-template-columns: 1fr
+    }
+    .footerContentSec{
+        padding: 30px 20px;
+    }
+    
+}
+
+@media screen and (max-width:991.98px) {
+    .footerList{
+        font-size: 14px;
+    }
+    .footerTitle{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,99 @@
+.bannerBg{
+    background-color: var(--features-bg);
+    min-height: 655px;
+    padding-top: 80px;
+}
+
+.bannerTitle{   
+    font-size: 67px;
+    line-height: 76px;
+    color: var(--white);
+    font-weight: 700;
+    font-family: "Inter", sans-serif !important;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bannerDesc{
+    color: var(--banner-text);
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif !important;
+    max-width: 654px;
+    margin: auto;
+}
+
+.textVerticalCenter{
+    min-height: 655px;
+    align-items: center;
+}
+
+.bannerBtn{
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif !important;  
+    text-decoration: none;  
+    padding: 10px 14px;
+    display: inline-block;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.aboutBtn{
+    color: var(--black-text);
+    background-color: var(--header-btn2);
+    margin-right: 10px;
+}
+
+.resourceBtn{
+    color: var(--white);
+    background-color: transparent !important;
+    border: 1px solid var(--white);
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.bannerLinks{
+    color: var(--banner-link-grey);
+    background-color: var(--features-card);
+    border-radius: 5px;
+    padding: 9px 36px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Quantico", sans-serif !important;
+    display: inline-block;
+}
+
+.bannerLinkSec{
+    text-align: center;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 40px;
+    
+}
+
+
+@media screen and (max-width:767.98px) {
+    .bannerTitle{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .textVerticalCenter{
+        align-items: inherit;
+        min-height: auto;
+    }
+    .bannerDesc{
+        font-size: 17px;
+    }
+    .bannerBg{
+        min-height: auto;
+        padding-top: 100px;
+    }
+    .bannerLinkSec{
+        padding-top: 40px;
+    }
+}

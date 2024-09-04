@@ -1,0 +1,86 @@
+.featuresBg{
+    background-color: var(--features-bg);
+    padding: 80px 0;
+}
+
+.featuresTitle{
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quantico", sans-serif !important;
+}
+
+.featuresGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuresCard{
+    background-color: var(--features-card);
+    border-radius: 16px;
+    padding: 20px 35px;
+    text-align: center;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.getStarted{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--features-orange);
+    font-family: "Poppins", sans-serif !important;
+    text-decoration: none;
+}
+
+.featureCardTitle{
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--white);
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.featureContent{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--features-text);
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.arrowIcon{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:767.98px) {
+    .featuresGrid{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .featuresCard{
+        padding: 15px;
+    }
+    .featureCardTitle{
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px) {
+  
+    .featuresGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}

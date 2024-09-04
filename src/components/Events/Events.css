@@ -1,0 +1,139 @@
+.eventBg{
+    background-color: var(--event-bg);
+    padding: 50px 0;
+}
+
+.eventSecTitle{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif !important;
+    margin-bottom: 0;
+}
+
+.moreTeamBtn{
+    background-color: var(--black) !important;
+    border-radius: 50px !important;
+    font-size: 20px !important;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif !important;
+    color: var(--white) !important;
+    min-width: 239px;
+    position: relative;
+    padding: 15px 15px 15px 50px !important;
+}
+
+.teamArrow{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.eventTitleFlex{
+    display: flex;
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--black) ;
+}
+
+.eventImage{
+    width: 458px;
+    height: 458px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.eventSliderFlex{
+    display: flex;
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.eventContent{
+    padding-left: 25px;
+    max-width: 331px;
+    width: 100%;
+}
+
+.eventTitle{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif !important;
+    color: var(--black-text);
+    margin-bottom: 5px;
+}
+.eventLocSec{
+    font-size: 16px;
+    color: var(--black-text);
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.launchEvent{
+    padding-right: 15px;
+}
+
+.eventDesc{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black-text);
+    margin: 20px 0;
+    font-family: "Montserrat", sans-serif !important;
+    line-height: 36px;
+}
+
+.socialMediaList{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.socialIcon{
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.socialMediaHandle{
+    text-decoration: none;
+    color: var(--black-text);
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.socialMediaListItem{
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width:767.98px) {
+    .eventTitleFlex,
+    .eventSliderFlex{
+        flex-direction: column;
+    }
+    .eventSecTitle{
+        margin-bottom: 20px ;
+    }
+    .eventContent{
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .eventImage{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+}

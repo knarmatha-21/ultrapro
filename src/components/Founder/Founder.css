@@ -1,0 +1,54 @@
+.founderBg{
+    background-color: var(--features-bg);
+    padding: 33px 0;
+}
+
+.founderGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.founderImage{
+    width: 100%;
+}
+
+.founderName{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif !important;
+    color: var(--white);
+}
+
+.founderSubTitle{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif !important;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.companyName{
+    color: var(--features-orange);
+}
+
+.founderDesc{
+    font-size: 17px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+@media screen and (max-width:767.98px) {
+    .founderGrid{
+        grid-template-columns: 1fr;
+    }
+    .founderName{
+        font-size: 35px;
+    }
+    .founderDesc{
+        font-size: 15px;
+    }
+}
